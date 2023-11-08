@@ -1,0 +1,8 @@
+apiVersion: dtlb.io/v1beta1
+kind: DirectLB
+metadata:
+  name: demo-lb
+spec:
+  image: "nginx"
+  replicas: 2
+  size: "nginx"
